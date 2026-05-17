@@ -1,0 +1,25 @@
+# Fichiers modeles lourds (>100MB)
+best_bert_weights.pt
+best_lstm_weights.pt
+
+# Donnees brutes (lourdes)
+data/fake_real/Fake.csv
+data/fake_real/True.csv
+
+# Fichiers HTML exportes (lourds)
+*.html
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
